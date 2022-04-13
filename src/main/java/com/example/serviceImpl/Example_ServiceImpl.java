@@ -14,7 +14,7 @@ public class Example_ServiceImpl implements Example_Service{
 	private Example_Repository exampleRepository;
 	@Override
 	public void saveExample(Integer id, String name, Integer age, String email, String password) {
-		// TODO Auto-generated method stub
+		
 		Example example=new Example();
 		example.setId(id);
 		example.setName(name);
